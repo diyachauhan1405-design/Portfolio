@@ -56,13 +56,6 @@ export default function Contact() {
           <p className="mx-auto mt-4 max-w-xl text-text-secondary">
             Have a project in mind, or just want to say hi? My inbox is always open.
           </p>
-          <a
-            href={`tel:${profile.phone.replace(/\s+/g, "")}`}
-            className="mt-3 inline-flex items-center gap-2 text-sm text-text-secondary transition-colors hover:text-accent-secondary"
-          >
-            <Phone className="h-3.5 w-3.5" />
-            {profile.phone}
-          </a>
         </motion.div>
 
         <motion.form
