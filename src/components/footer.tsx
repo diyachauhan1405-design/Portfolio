@@ -51,7 +51,6 @@ export default function Footer() {
 
       <div className="border-t border-border py-6 text-center text-xs text-text-secondary">
         <p>© {new Date().getFullYear()} {profile.name}. All rights reserved.</p>
-        <p className="mt-1">Made with ❤️ using Next.js, Tailwind CSS, Framer Motion, GSAP.</p>
       </div>
     </footer>
   );

@@ -1,15 +1,14 @@
 export const profile = {
   name: "Diya Chauhan",
   role: "UI/UX Designer & Frontend Developer",
-  experienceYears: "2+",
+  experienceYears: "1.5+",
   company: "WildMind AI",
   location: "Ahmedabad, GJ, India",
   availability: "Available for Work",
   email: "diyachauhan1405@gmail.com",
-  phone: "+91 98985 06910",
   socials: {
     linkedin: "https://linkedin.com/in/diya-chauhan14",
-    github: "",
+    github: "https://github.com/diyachauhan1405-design",
     behance: "",
     dribbble: "",
   },
@@ -33,7 +32,7 @@ export const aboutCards = [
 ];
 
 export const quickStats = [
-  { label: "Years of Experience", value: 2, suffix: "+" },
+  { label: "Years of Experience", value: 1.5, suffix: "+" },
   { label: "Companies", value: 2, suffix: "" },
   { label: "Client Projects", value: 2, suffix: "" },
   { label: "Internships", value: 2, suffix: "" },
@@ -45,15 +44,14 @@ export const careerTimeline = [
   { label: "Education", detail: "B.E., Computer Engineering — U.V. Patel College of Engineering, Ganpat University (2021 – 2025)" },
   { label: "Python Development Intern", detail: "Vnnovate Solutions Pvt Ltd (Dec 2023 – Jan 2024)" },
   { label: "UI/UX Intern", detail: "Vnnovate Solutions Pvt Ltd (Jan 2025 – Jun 2025)" },
-  { label: "UI/UX Designer & Frontend Developer", detail: "WildMind AI (Aug 2025 – Present)" },
-  { label: "Present", detail: "Designing & building at WildMind AI" },
+  { label: "UI/UX Designer & Frontend Developer", detail: "WildMind AI (Aug 2025 – July 2026)" },
 ];
 
 export const skillCategories = [
   {
     category: "UI/UX",
     skills: [
-      { name: "User Research", experience: "2+ yrs", projects: "5+ projects", usage: "Weekly" },
+      { name: "User Research", experience: "1.5+ yrs", projects: "5+ projects", usage: "Weekly" },
       { name: "Wireframing", experience: "2+ yrs", projects: "5+ projects", usage: "Daily" },
       { name: "Prototyping", experience: "2+ yrs", projects: "5+ projects", usage: "Daily" },
       { name: "User Flow", experience: "2+ yrs", projects: "5+ projects", usage: "Weekly" },
@@ -66,7 +64,7 @@ export const skillCategories = [
   {
     category: "Frontend",
     skills: [
-      { name: "React.js", experience: "2+ yrs", projects: "6+ projects", usage: "Daily" },
+      { name: "React.js", experience: "1.5+ yrs", projects: "6+ projects", usage: "Daily" },
       { name: "Next.js", experience: "1+ yr", projects: "4+ projects", usage: "Daily" },
       { name: "JavaScript", experience: "2+ yrs", projects: "6+ projects", usage: "Daily" },
       { name: "HTML5", experience: "2+ yrs", projects: "6+ projects", usage: "Daily" },
@@ -102,7 +100,7 @@ export const projects = [
     category: "Marketing Website",
     tech: ["Figma", "React", "Next.js", "Tailwind CSS"],
     description:
-      "Designed and built the official marketing website for FLYBIT Dynamics — India's premium drone light show company operating fleets of 100–150 GPS-precision drones. Owned the full product pipeline from Figma concepts through production Next.js code. Delivered service pages for weddings, corporate events, and government productions; city-specific landing pages for Ahmedabad, Jaipur, Delhi NCR, and Mumbai; and a portfolio section showcasing their \"Concept → Design → Permissions → Live Show\" end-to-end offering. Built for conversion with a brand-forward, inquiry-focused funnel.",
+      "Designed and built the official website for an Ahmedabad-based drone light show company — owning UI/UX and frontend end-to-end, from Figma through production code. Includes service pages, city-specific landing pages, and a blog/portfolio section built for a conversion-focused, brand-forward client inquiry funnel.",
     gradient: "from-[#6C63FF] to-[#00E5FF]",
   },
   {
@@ -122,7 +120,7 @@ export const projects = [
     category: "Corporate Website",
     tech: ["Figma", "HTML5", "CSS3", "Bootstrap"],
     description:
-      "Designed and developed the corporate website for IncSmart Technologies — a Startup India certified IoT and energy management company with 120+ projects delivered for clients including PVR INOX, UltraTech Cement, Indian Railways, and NTPC. Communicated their end-to-end smart infrastructure offering: Industrial IoT & Automation, HVAC Optimization (up to 20% energy savings), Building Management Systems, and real-time monitoring dashboards built on Modbus, BACnet, and MQTT protocols — serving manufacturing, commercial, hospitality, and railway sectors across India.",
+      "Designed and developed a corporate website for an IoT and energy management solutions company, showcasing their product portfolio — IoT gateways, smart energy meters — and communicating brand and services to clients across warehousing, railways, and hospitality.",
     gradient: "from-[#00E5FF] to-[#22C55E]",
   },
 ];
